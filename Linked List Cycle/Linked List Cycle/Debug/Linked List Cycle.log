@@ -1,0 +1,36 @@
+﻿生成启动时间为 2015/5/6 12:43:37。
+     1>项目“c:\Users\administrator\documents\visual studio 2013\Projects\Linked List Cycle\Linked List Cycle\Linked List Cycle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hasCycle.cpp
+         hasCycle.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1782): error C2893: 未能使函数模板“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) const”专用化
+                 用下列模板参数: 
+                 “_Ty1=ListNode &”
+                 “_Ty2=ListNode &”
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1799): 参见对正在编译的函数 模板 实例化“_FwdIt std::_Unique<_Iter,_Pr>(_FwdIt,_FwdIt,_Pr)”的引用
+                 with
+                 [
+                     _FwdIt=ListNode *
+         ,            _Iter=ListNode *
+         ,            _Pr=std::equal_to<void>
+                 ]
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1806): 参见对正在编译的函数 模板 实例化“_FwdIt std::unique<_FwdIt,std::equal_to<void>>(_FwdIt,_FwdIt,_Pr)”的引用
+                 with
+                 [
+                     _FwdIt=ListNode *
+         ,            _Pr=std::equal_to<void>
+                 ]
+                 c:\users\administrator\documents\visual studio 2013\projects\linked list cycle\linked list cycle\hascycle.cpp(9): 参见对正在编译的函数 模板 实例化“_FwdIt std::unique<ListNode*>(_FwdIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=ListNode *
+                 ]
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(1785): error C2893: 未能使函数模板“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) const”专用化
+                 用下列模板参数: 
+                 “_Ty1=ListNode &”
+                 “_Ty2=ListNode &”
+     1>已完成生成项目“c:\Users\administrator\documents\visual studio 2013\Projects\Linked List Cycle\Linked List Cycle\Linked List Cycle.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.28
